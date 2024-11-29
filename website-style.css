@@ -1,0 +1,158 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.title-headline {
+    /* border: 2px solid red; */
+    font-weight: bold;
+    font-size: xx-large;
+    padding: 5px 10px;
+    color: green;
+}
+.main-nav {
+    padding: 5px 10px;
+    /* border: 2px solid red; */
+    background-color: black;
+    
+}
+.main-nav li a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid blue;
+    padding: 3px 4px;
+    border-radius: 6px;
+}
+.main-nav li {
+    display: inline-block;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+.main-nav li a:hover {
+color: red;
+background-color: white;
+}
+.main-header {
+    height: 90vh;
+    background-image: url("./IMG-20210107-WA0001.jpg");
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.title-2 {
+    font-size: xx-large;
+    font-weight: bold;
+    color: blue;
+    /* border: 2px solid red; */
+    width: 41%;
+    background-color: aliceblue;
+}
+.title-3 {
+    font-size: x-large;
+    font-weight: bold;
+    color: blue;
+    margin: 10px 0px;
+    /* border: 2px solid red; */
+    width: 41%;
+    background-color: aliceblue;
+}
+.title-4 {
+    font-size: larger;
+    font-weight: bold;
+    color: darkred;
+    border: 2px solid blue;
+    width: 9%;
+    padding: 5px 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    background-color: greenyellow;
+    margin: 10px 0px;
+}
+.title-4:hover {
+    background-color: violet;
+    color: red;
+}
+.under-title {
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 10px 0px; 
+    padding: 5px 10px;
+    color: blue;
+}
+
+
+.main-projects {
+    min-height: 100vh;
+    border: 2px solid red;
+}
+.project-container {
+    border: 2px solid red;
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card-wrapper {
+    border: 2px solid green;
+    width: 250px;
+    height: 500px;
+    margin: 10px;
+}
+.card-top, 
+.card-bottom {
+    border: 2px solid red;
+    max-width: 250px;
+    height: 247px;
+}
+.card-top {
+    background-image: url("./DSCI0130.JPG");
+    
+}
+.card-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aquamarine; 
+}
+.card-bottom h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 0 10px 10px;
+    color: darkblue; 
+
+}
+.card-bottom p {
+    margin: 10px 0 20px 10px;
+    font-weight: bold;
+}
+.card-bottom a {
+    margin: 0 0 10px 10px;
+    font-weight: bold;
+}
+.card-bottom a:hover {
+    color: red;
+}
+/* ABOUT */
+.main-about {
+    border: 2px solid red;
+    height: 100vh;
+    padding: 50px;
+    overflow: scroll;
+}
+.main-about h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: darkblue;
+}
+.about-container {
+    /* border: 2px solid red; */
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+.about-paragraph {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: blueviolet;
+    text-align: justify;
+}
